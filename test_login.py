@@ -1,6 +1,12 @@
+import sys
+sys.path.append("./pages")
+sys.path.append(".")
+
 import pytest
 from pages.drive_page import DrivePage
 import time
+
+
 
 def test_login(browser):
 
