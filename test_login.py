@@ -1,14 +1,9 @@
 import pytest
-from pages.base_page import BasePage
-from pages.main_page import MainPage
-from pages.base_page import BasePage
 from pages.drive_page import DrivePage
-from pages.locators import MainPageLocators
 import time
 
 def test_login(browser):
-    ##login = 'abc1636@yandex.ru'
-    ##password = 'PurPur86'
+
     link = "http://yandex.ru/"
     foldername = "testtest"
     filename = "testtest"
